@@ -1,9 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="top25">
 <head>
+	<meta charset="UTF-8">
 	<title>Top 25 - 2015</title>
 </head>
-<body>
+<body ng-controller="ListController as list">
 	<h1>Hi! :3</h1>
+	<p>This is supposed to be a super professional list thing, but... eh! We'll get there eventually.</p>
+
+	<div>
+		<h2>{{list.entry.ranking}}. {{list.entry.artist}} - {{list.entry.title}}</h2>
+		<img ng-src="{{list.entry.cover}}" alt="Madeon - Adventure"/>
+		<p>{{list.entry.description}}</p>
+	</div>
+
+	<script src="scripts/angular/angular.js"></script>
+	<script src="scripts/app.js"></script>
 </body>
 </html>
