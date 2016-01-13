@@ -8,10 +8,10 @@
 	<h1>Hi! :3</h1>
 	<p>This is supposed to be a super professional list thing, but... eh! We'll get there eventually.</p>
 
-	<div>
-		<h2>{{list.entry.ranking}}. {{list.entry.artist}} - {{list.entry.title}}</h2>
-		<img ng-src="{{list.entry.cover}}" alt="Madeon - Adventure"/>
-		<p>{{list.entry.description}}</p>
+	<div ng-repeat="entry in list.entries">
+		<h2>{{entry.ranking}}. {{entry.artist}} - {{entry.title}}</h2>
+		<img ng-src="{{entry.cover}}" alt="{{entry.title}}"/>
+		<p>{{entry.description}}</p>
 	</div>
 
 	<script src="scripts/angular/angular.js"></script>
