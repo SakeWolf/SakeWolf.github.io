@@ -3,16 +3,32 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Top 25 - 2015</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="stylesheets/css/style.css">
 </head>
 <body ng-controller="ListController as list">
-	<h1>Hi! :3</h1>
-	<p>This is supposed to be a super professional list thing, but... eh! We'll get there eventually.</p>
+	<article>
+		<header>
+			<h1><i class="fa fa-fast-backward color-D0088A"></i> Noccy's Favorite Albums of 2015</h1>
+			<p>This is supposed to be a super professional list thing, but... eh! We'll get there eventually.</p>
+		</header>
 
-	<div ng-repeat="entry in list.entries">
-		<h2>{{entry.ranking}}. {{entry.artist}} - {{entry.title}}</h2>
-		<img ng-src="{{entry.cover}}" alt="{{entry.title}}"/>
-		<p>{{entry.description}}</p>
-	</div>
+		<section ng-repeat="entry in list.entries">
+			<img ng-src="{{entry.cover}}" alt="{{entry.title}}"/>
+			<div class="sameLine rank color-{{list.setColor(entry.ranking)}}"><h2>{{entry.ranking}}</h2></div> <div class="sameLine"><h2>{{entry.title}}</h2></div>
+			<div><h3>{{entry.artist}}</h3></div>
+			<p>{{entry.description}}</p>
+			<a href="{{entry.sample.url}}"><i class="fa fa-play-circle-o text-color-{{list.setColor(entry.ranking)}}"></i> {{entry.sample.title}}</a>
+			<hr>
+		</section>
+
+		<footer>
+			<p>All in all, this year was super awesome for music! 2016 is already shaping up to be a good year, so I'll be looking forward to continuing this and seeing if I can't finally get that blog off the ground.</p>
+		</footer>
+	</article>
 
 	<script src="scripts/angular/angular.js"></script>
 	<script src="scripts/app.js"></script>

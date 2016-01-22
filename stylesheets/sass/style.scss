@@ -1,0 +1,128 @@
+@mixin border-radius($radius) {
+	-webkit-border-radius: 0 $radius 0 $radius;
+	-moz-border-radius: 0 $radius 0 $radius;
+	-ms-border-radius: 0 $radius 0 $radius;
+	border-radius: 0 $radius 0 $radius;
+}
+
+body {
+	margin: auto;
+	width: 80%;
+	background-color: #D9D9D9
+}
+
+article {
+	background-color:#F2F2F2;
+}
+
+header {
+	padding: 3% 1.25% 2.5% 1.25%;
+	i {
+		color: #FFFFFF;
+		padding: 0.25em;
+		margin: 0 0.2em 0.2em 0;
+		@include border-radius(0.5em);
+	}
+	h1 {
+		font-weight: 700;
+		padding-bottom: 0.5em;
+	}
+}
+
+section {
+	clear: both;
+	padding: 1% 1.25% 1% 1.25%;
+	img {
+		width: 22.5%;
+		height: 22.5%;
+		float: left;
+		padding: 0 1% 2% 0;
+	}
+	h2 {
+		position: relative;
+		top: 0.25em;
+		text-align: center;
+	}
+	h3 {
+		padding-bottom: 0.5em;
+		font-style: italic;
+	}
+	hr {
+		height: 0;
+		width: 100%;
+		max-height: 0;
+		font-size: 1px;
+		line-height: 0;
+		clear: both;
+		text-align: left;
+		margin: 0;
+	}
+	p {
+		padding-bottom: 1em;
+	}
+	a:link, a:visited {
+		color: #000000;
+		text-decoration: none;
+	}
+	a:hover {
+		color: #999999;
+	}
+}
+
+footer {
+	clear: both;
+	padding: 1% 1.25% 3% 1.25%;
+}
+
+.rank {
+	width: 2.75em;
+	height: 2.75em;
+	margin: 0 0.5em 0.5em 0;
+	font-weight: 700;
+	color: #FFFFFF;
+	@include border-radius(1em);
+}
+
+.sameLine {
+	display: inline-block;
+}
+
+.color-2406C6 {
+	background-color: #2406C6;
+}
+
+.color-6C08D0 {
+	background-color: #6C08D0;
+}
+
+.color-9D02B9 {
+	background-color: #9D02B9;
+}
+
+.color-D0088A {
+	background-color: #D0088A;
+}
+
+.color-C6080B {
+	background-color: #C6080B;
+}
+
+.text-color-2406C6 {
+	color: #2406C6;
+}
+
+.text-color-6C08D0 {
+	color: #6C08D0;
+}
+
+.text-color-9D02B9 {
+	color: #9D02B9;
+}
+
+.text-color-D0088A {
+	color: #D0088A;
+}
+
+.text-color-C6080B {
+	color: #C6080B;
+}
