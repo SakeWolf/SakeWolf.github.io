@@ -2,7 +2,7 @@ var title = "Noccy's Favorite Albums of 2015";
 
 var opener = "At the start of 2015, one of the resolutions I had set myself was to better educate myself on modern music and what it had to offer, both to broaden my own appreciation of a craft I love and to better be able to discuss and share my findings with my friends. As such, by the end of this expedition over a 120 albums had passed through my tired old headphones, and even though I still missed a handful of the bigger releases of the year I found myself enjoying (or at least appreciating) the vast majority of the records I checked out. Of course though, a handful of albums stood out above the rest and lured me back to indulge in them over and over again, so in commemoration of this crazy ride: here are my 25 favorite albums I listened to in 2015!";
 
-var closer = "And there you have it! My personal favorites of 2015, from it's most engaging pop records all the way down to the most challenging and ear grabbing rap and indie albums I managed to pick up. At least in the scope of albums I listened to, I honestly do think 2015 was a pretty great year in music, pushing boundaries in how music could be constructed, what it could say, and how it could say it, and even only a few weeks in 2016 is shaping up to be just as riveting. I'm hoping to pick up and listen to even more albums this year with a better ear for the standouts (I missed a handful of bigger releases in 2015 such as Bjork's new record, Deafheaven's album, so on), and most of all: I'm hoping to finally set up and get a blog for my music up and running.<br>That'll all come in time though: for now, I gotta listen to 'The Knock' one more time~";
+var closer = "And there you have it! My personal favorites of 2015, from it's most engaging pop records all the way down to the most challenging and ear grabbing rap and indie albums I managed to pick up. At least in the scope of albums I listened to, I honestly do think 2015 was a pretty great year in music, pushing boundaries in how music could be constructed, what it could say, and how it could say it, and even only a few weeks in 2016 is shaping up to be just as riveting. I'm hoping to pick up and listen to even more albums this year with a better ear for the standouts (I missed a handful of bigger releases in 2015 such as Bjork's new record, Deafheaven's album, so on), and most of all: I'm hoping to finally set up and get a blog for my music up and running. That'll all come in time though: for now, I gotta listen to 'The Knock' one more time~";
 
 var albums = [
 	{
@@ -114,7 +114,7 @@ var albums = [
 		artist: "Haiku Salut",
 		ranking: 12,
 		cover: "https://ia801303.us.archive.org/31/items/mbid-a8f1385e-26cf-4408-b833-d2072cd8d049/mbid-a8f1385e-26cf-4408-b833-d2072cd8d049-11050688036.jpg",
-		description: "Easily my favorite almbient record of the year, Haiku Salut's mid-year release stood out from most of the other ambient releases this year due to it's use of live, organic samples alongside synthesized sounds. This produces a broad emotional pallete that they use to paint an astonishing spread of emotions, from the bright hopeful opening to the uplifting, yet oddly despondent ending notes.",
+		description: "Easily my favorite ambient record of the year, Haiku Salut's mid-year release stood out from most of the other ambient releases this year due to it's use of live, organic samples alongside synthesized sounds. This produces a broad emotional pallete that they use to paint an astonishing spread of emotions, from the bright hopeful opening to the uplifting, yet oddly despondent ending notes.",
 		sample: {title: "Bleak and Beautiful (All Things)", url: "https://www.youtube.com/watch?v=FOHvtkLEUR8"}
 	},
 	{
@@ -202,7 +202,7 @@ var albums = [
 		artist: "Hop Along",
 		ranking: 1,
 		cover: "https://ia800505.us.archive.org/27/items/mbid-8114b878-c9ff-4c4f-bc19-5baabc10f32c/mbid-8114b878-c9ff-4c4f-bc19-5baabc10f32c-10513425245.jpg",
-		description: "There is only one way I can describe this album: indie rock perfection. This album stuck with me nearly every day since I first picked it up back in May, and I could go on and on about how much I adore it's tasteful, unpretentious indie rock catchiness and charm, it's quirky off-beat lyrics that tell unusual stories yet still frame complex problems and issues about growth and emotional baggage from the past. Lead singer Frances Quinlan's voice once again steals the show here though, her evocative singing and the incredible grit and rasp in her voice making her one of the greatest voices in rock stil working today.",
+		description: "There is only one way I can describe this album: indie rock perfection. This album stuck with me nearly every day since I first picked it up back in May, and I could go on and on about how much I adore it's tasteful, unpretentious indie rock catchiness and charm, it's quirky off-beat lyrics that tell unusual stories yet still frame complex problems and issues about growth and emotional baggage from the past, and so on. Lead singer Frances Quinlan's voice once again steals the show here though, her evocative singing and the incredible grit and rasp in her voice making her one of the greatest voices in rock still working today.",
 		sample: {title: "Sister Cities", url: "https://www.youtube.com/watch?v=SHs_5z9ikiw"}
 	}
 ];
