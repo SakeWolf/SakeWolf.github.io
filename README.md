@@ -1,2 +1,2 @@
 # SakeWolf.github.io
-SakeWolf's webpage, for wolfish pages fueled by sake! (Though joking aside, a real description will come later!)
+A practice application to help me explore working with AngularJS and Sass on static web pages, as well as design exploration for a music blog I am currently developing.
